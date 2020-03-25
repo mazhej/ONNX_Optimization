@@ -8,3 +8,6 @@ The primary motivation is to share work between the many ONNX backend implementa
 
 You may be interested in invoking the provided passes, or in implementing new ones (or both). 
 To see the original page https://github.com/onnx/onnx/blob/master/docs/Optimizer.md#onnx-optimizer
+
+###  How to use
+you first need to convert your models( resnet, mobilenet, inception,...) to onnx using torch_to_onnx.py ans then optimize them using optimize_onnx_models.py
